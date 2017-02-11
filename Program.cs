@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace spellCheckTask
+namespace SpellCheckTask
 {
     class Program
     {
