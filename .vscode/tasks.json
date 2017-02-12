@@ -2,16 +2,23 @@
 	// See https://go.microsoft.com/fwlink/?LinkId=733558
 	// for the documentation about the tasks.json format
 	"version": "0.1.0",
-	"command": "dotnet",
-	"isShellCommand": true,
-	"args": [],
+	"_runner": "terminal",
+	"echoCommand": true,
 	"tasks": [
 		{
 			"taskName": "build",
-			"args": [ ],
+			"command": "dotnet build",
+			"args": [],
+			"isShellCommand": true,
+			"showOutput": "always",
 			"isBuildCommand": true,
-			"showOutput": "silent",
 			"problemMatcher": "$msCompile"
+		},
+		{
+			"taskName": "install",
+			"command": "copy to program files\\spellcheck",
+			"isShellCommand": true,
+			"showOutput": "always"
 		}
 	]
 }
