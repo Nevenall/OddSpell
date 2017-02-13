@@ -1,6 +1,6 @@
 # OddSpell
 
-An on-demand spell checking cli app. 
+An on-demand spell checker that makes you fix your own mistakes. 
 
 ## More?
 
