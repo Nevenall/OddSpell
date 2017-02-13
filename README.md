@@ -1,8 +1,18 @@
-# SpellCheckTask
+# OddSpell
 
-A console app in .net 4.6.2 to spell check text using the Windows Spell Checking API. 
+An on-demand spell checking cli app. 
+
+## More?
+
+OddSpell serves a specific purpose; to provide simple, information only, spell checking when requested. It will take a file or piped input and provide suggestions on a line by line basis. Corrections you will have to retype yourself. 
+
+## Requires
+
+.net 4.6.2, Windows 10.
 
 ## Usage
+
+Current usage, but soon to be improved.
 	
 ```
 SpellCheckTask 'file to check' 
