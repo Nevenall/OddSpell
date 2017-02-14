@@ -19,13 +19,13 @@ I made OddSpell because I write in VS Code and I wanted to choose when to check 
 Current usage, but soon to be improved.
 	
 ```
-SpellCheckTask 'file to check' 
+OddSpell 'file to check' 
 ```
 
 _or_
 
 ```
-<Your input> | SpellCheckTask
+<Your input> | OddSpell
 ```
 
 ## Output

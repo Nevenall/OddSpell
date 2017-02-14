@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "SpellCheckTask", "SpellCheckTask.csproj", "{4B50E0F7-CB4D-4BBF-ACC1-436B2BE10C8A}"
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "OddSpell", "OddSpell.csproj", "{4B50E0F7-CB4D-4BBF-ACC1-436B2BE10C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

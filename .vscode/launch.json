@@ -6,7 +6,7 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build",
-			"program": "${workspaceRoot}/bin/Debug/net4.6.2/SpellCheckTask.exe",
+			"program": "${workspaceRoot}/bin/Debug/net4.6.2/OddSpell.exe",
 			"args": [],
 			"cwd": "${workspaceRoot}",
 			"stopAtEntry": false,

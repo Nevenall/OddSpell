@@ -4,17 +4,23 @@ using System.IO;
 using System.Linq;
 using PlatformSpellCheck;
 
-namespace SpellCheckTask
+namespace OddSpell
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
+
+			// if there is a custom dictionary in %AppData%\Microsoft\Spelling\ 
+			// it will be used automatically, 
+			
+			// todo - might be nice to be able to easily add a word to the custom dictionary
+			// through spell check OddSpell
+			// might also be nice to make the name more user friendly 
 			try
 			{
 				using (var spelling = new SpellChecker())
 				{
-
 					var lineNo = 0;
 					IEnumerable<string> lines = Enumerable.Empty<string>();
 
@@ -30,9 +36,9 @@ namespace SpellCheckTask
 					{
 						System.Console.WriteLine(@"Usage: 
 
- <Your Input> | SpellCheckTask
+ <Your Input> | OddSpell
 	OR
- SpellCheckTask ""Path to File to Check""");
+ OddSpell ""Path to File to Check""");
 					}
 
 					var query = from line in lines

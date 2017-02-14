@@ -1,6 +1,6 @@
 {
 	"problemMatcher": {
-		"owner": "SpellCheckTask",
+		"owner": "OddSpell",
 		"severity": "warning",
 		"fileLocation": "absolute",
 		"pattern": [
