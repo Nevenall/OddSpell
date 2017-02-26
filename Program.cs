@@ -43,7 +43,7 @@ OR
  OddSpell ""Path to File to Check""
  
 ADD WORDS
- OddSpell add WORD, WORD, ...\t\tWill add a command separated list of words to the default use dictionary.");
+ OddSpell add WORD WORD...    Will add a command separated list of words to the default use dictionary.");
                   }
 
                   var query = from line in lines
