@@ -13,12 +13,6 @@
 			"showOutput": "always",
 			"isBuildCommand": true,
 			"problemMatcher": "$msCompile"
-		},
-		{
-			"taskName": "install",
-			"command": "copy to program files\\spellcheck",
-			"isShellCommand": true,
-			"showOutput": "always"
 		}
 	]
 }

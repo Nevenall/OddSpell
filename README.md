@@ -12,7 +12,7 @@ I made OddSpell because I write in VS Code and I wanted to choose when to check 
 
 ## Requires
 
-.net 4.6.2, Windows 10.
+.net 4.6.2, Windows 8.
 
 ## Usage
 
